@@ -1,0 +1,170 @@
+*{
+	outline-width: 1px;
+}
+body{
+	margin: 0 auto;
+	/*padding: 1px 20px;*/
+}
+
+#wrapper{
+	width: 1200px;
+	height: 2000px;
+
+	margin: 0 auto;
+	background-color: #EFEFEF;
+	background-image: url("img/giphy9.gif");
+	background-repeat: no-repeat;
+	background-attachment: local;
+	background-position: 500px 140px;
+	background-size: auto;
+
+	border: solid;
+	border-color: black;
+	border-width: 3px;
+}
+#Header{
+	background-image: url(img/myGif1.gif);
+	background-position: center;
+
+	width: 100%;
+}
+	#Header h1{
+		width: max-content;
+		color: rgb(121, 25, 25);
+
+		display: inline-block;
+		margin: auto 25%;
+	}
+
+	.HeaderLeft{
+		width: max-content;
+		height: 50px;
+
+		color: white;
+		background-color: black;
+
+		margin: 20px 5px;
+		display: inline-block;
+		padding: 2px 10px;
+	}
+	.HeaderLeft:hover{
+		width: max-content;
+		height: 50px;
+
+		color: black;
+		background-color: white;
+
+		margin: 20px 5px;
+		display: inline-block;
+		padding: 2px 10px;
+	}
+	.HeaderLeft p{
+		margin-top: -33px;
+	}
+	.HeaderLeft h5{
+		margin-top: 10px;
+		margin-bottom: 0px;
+	}
+.links{
+	width: auto;
+	height: max-content;
+
+	background: black;
+	color: white;
+
+	display: flex;
+	padding: 15px;
+}
+	.container{
+		display: flex;
+	}
+	.container a{
+		margin: 10px 5px;
+	}
+
+	.container .x{
+		background-color: black;
+		width: 30px;
+		height: 30px;
+		margin: auto auto;
+		display: inline-block;
+	}
+	.container:hover .x{
+		background-image: url(img/x.gif);
+		background-size: 30px 30px;
+		width: 30px;
+		height: 30px;
+		margin: auto auto;
+		display: inline-block;
+	}
+
+#myTest_ID_Box{
+	width: 400px;
+	height: 400px;
+
+	margin: 15px;
+
+	background-color: black;
+	text-align: center;
+
+	display: flex;
+	justify-content: center;
+
+	position: fixed;
+}
+	.myTest_Class_Box{
+		width: 350px;
+		height: 350px;
+
+		background-color: #EFEFEF;
+		background-position: center;
+		background-size: auto;
+		color: black;
+
+		margin: auto auto;
+	}
+	.myTest_Class_Box:hover{
+		background-image: url(img/background3.gif);
+	}
+	.myTest_Class_Box span{
+		color: black;
+		text-decoration: underline;
+	}
+	.myTest_Class_Box p{
+		color: black;
+	}
+	.mini-outline{
+		margin: 0 auto;
+		padding: 0 5px;
+		width: max-content;
+		outline: dotted black;
+	}
+	.threeB{
+		border-top: dotted;
+	}
+	.boxForBoxes{
+		display: flex;
+		justify-content: space-evenly;
+	}
+		.boxs{
+			width: 68px;
+			height: 68px;
+
+			background-color: black;
+			color: white;
+
+			margin: 10px auto;
+
+			display: inline-block;
+		}
+.mini-outline2{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+
+	padding: 0 5px;
+	width: max-content;
+	outline: dotted black;
+	margin-top: 135%;
+	margin-left: 30px;
+}
